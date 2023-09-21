@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Name,Phone,Products,Quantity,price
 Sk,23232323,ONION,45,55
 PK,4556569,Tomato,56,89
+=======
+Name,Phone,Products,Quantity,price
+Sk,23232323,ONION,45,55
+PK,4556569,Tomato,56,89
+>>>>>>> cf0f06239ad44cb6fa6f4e231ded9fbce36bef86

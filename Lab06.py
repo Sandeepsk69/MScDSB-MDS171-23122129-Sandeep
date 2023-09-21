@@ -1,4 +1,3 @@
-
 # Sandeep Kumar G 23122129 
 # Creating the lists for items, quantity, price.
 Items = ["apple", "banana", "orange", "grapes", "mango", "kiwi", "watermelon", "pineapple", "strawberry", "blueberry"]
@@ -15,6 +14,7 @@ for i in range(0,100):
 
 # Write the data to the CSV file
 with open('shopping.csv', 'w') as f:
+
     f.write("Item,Quantity,Unit Price\n")
     for row in rows:
         f.write(f"{row[0]},{row[1]},{row[2]}\n")
@@ -28,7 +28,7 @@ with open('shopping.csv', 'r') as f:
         print(f"{row[0]}: Total Cost = {total_cost}")
 
 # Display the results of the first 5 and last 10 rows
-with open('shopping.csv', 'r') as f:
+with open("shopping.csv", "r+") as f:
     lines = f.readlines()[1:]
     for i in range(len(lines)):
         row = lines[i].strip().split(',')
@@ -38,7 +38,7 @@ with open('shopping.csv', 'r') as f:
 
 # Calculate total cost for each unique item in the dataset
 item_totals = {}
-with open('shopping.csv', 'r') as f:
+with open("shopping.csv", "r+") as f:
     lines = f.readlines()[1:]
     for line in lines:
         row = line.strip().split(',')
@@ -53,7 +53,7 @@ with open('shopping.csv', 'r') as f:
 
 # Print the minimum & maximum price for each item sold
 item_prices = {}
-with open('shopping.csv', 'r') as f:
+with open("shopping.csv", "r+") as f:
     lines = f.readlines()[1:]
     for line in lines:
         row = line.strip().split(',')
@@ -61,5 +61,5 @@ with open('shopping.csv', 'r') as f:
             item_prices[row[0]] = []
         item_prices[row[0]].append(float(row[2]))
     print("\nItem | Minimum Price | Maximum Price")
-    for item in item_prices:
-        print(f"{item} | {min(item_prices[item])} | {max(item_prices[item])}")
+
+
