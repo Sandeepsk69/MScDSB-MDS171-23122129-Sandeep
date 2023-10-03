@@ -12,15 +12,15 @@ code.
 
 
 
-
-
-
-| Create Lists for [Item, Quantity, Price] with 10 random values of your choice.
-The item list can be of any category of your choice [Food Items, Grocery Items,...] or anything you choose that can be bought.
-
-Prepare a CSV file with combinations of these values with the help of random index & looping statements and other control structures we discussed in class.
-
-To get a random index or number to access items from the list, you can use the following:
-random is a library in Python that can be used to generate random numbers. |< a href="Lab06.py">Lab06.py</a>|
+|S.no|Date|File name|Topic|Link|
+|:----:|:----:|:---:|:----:|:----:|
+|1.|23-08-23|lab01|Write a program to enter name and push it to github.|[Lab 02] https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/Lab01.ipynb|
+|2.|28-08-23|lab02|The Name Collector's Quest with the Problems Associated with it.|[Lab02](https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/Lab02.ipynb)|
+|3.|31-08-23|lab03|The Tale of Numbers' Harmony with the Problems Associated with it.|[Lab03](https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/Lab03.ipynb)|
+|4.|05-09-23|lab04|A Taste of Success: The Restaurant Management System|[Lab04](https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/Lab04.ipynb)|
+|5.|12-09-23|lab04|Write a program for collecting a string from the user and counting the number of vowels|[Lab05](https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/Lab05.py)|
+6.|14/09/2023|lab06|Mix & Match Calculator|[Lab06](https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/Lab06.py)|
+7.|21/09/2023|lab07|Expense Tracker Calculator|[Lab07](https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/lab07.ipynb)|
+8.|03/10/2023|lab08|Implement a Stack class|[Lab08](https://github.com/Sandeepsk69/MScDSB-MDS171-23122129-Sandeep/blob/main/lab%2008.ipynb)|
 
 
